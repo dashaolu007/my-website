@@ -1,0 +1,76 @@
+<svg width="980" height="760" viewBox="0 0 980 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="40" y1="50" x2="920" y2="710" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#EAF6FF"/>
+    <stop offset="0.48" stop-color="#F7FFFD"/>
+    <stop offset="1" stop-color="#FFF7E9"/>
+  </linearGradient>
+  <linearGradient id="blueTeal" x1="130" y1="120" x2="830" y2="650" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#1F6FEB"/>
+    <stop offset="1" stop-color="#00A99D"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="420" y1="110" x2="890" y2="650" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F8C16B"/>
+    <stop offset="1" stop-color="#C98A2E"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#07192F" flood-opacity="0.18"/>
+  </filter>
+</defs>
+<rect x="20" y="25" width="940" height="710" rx="52" fill="url(#bg)" stroke="#D9E7F3" stroke-width="2"/>
+<circle cx="770" cy="140" r="86" fill="#E7FFFB"/>
+<circle cx="205" cy="604" r="104" fill="#EFF6FF"/>
+<path d="M150 445 C240 315 330 375 438 288 C534 210 658 210 792 334" stroke="#1F6FEB" stroke-width="5" stroke-linecap="round" opacity="0.18"/>
+<path d="M190 535 C310 440 390 535 507 440 C610 356 725 398 842 282" stroke="#00A99D" stroke-width="5" stroke-linecap="round" opacity="0.22"/>
+
+<!-- Doctor card -->
+<g filter="url(#shadow)">
+<rect x="94" y="166" width="300" height="430" rx="34" fill="white" stroke="#D9E7F3"/>
+<circle cx="244" cy="274" r="72" fill="#FFE5CC"/>
+<path d="M180 561 C193 455 209 390 244 390 C281 390 296 456 308 561" fill="#1F6FEB"/>
+<path d="M168 561 C184 462 205 398 244 398 C284 398 304 462 320 561" fill="#FFFFFF"/>
+<path d="M204 563 L224 420 L244 474 L265 420 L284 563" fill="#EAF2FF"/>
+<circle cx="218" cy="275" r="8" fill="#07192F"/>
+<circle cx="270" cy="275" r="8" fill="#07192F"/>
+<path d="M220 310 C237 325 254 325 270 310" stroke="#07192F" stroke-width="5" stroke-linecap="round"/>
+<path d="M178 238 C195 180 282 174 311 235 C286 218 248 212 213 229 C199 236 187 239 178 238Z" fill="#102A4D"/>
+<rect x="152" y="438" width="184" height="42" rx="21" fill="#EAF6FF"/>
+<text x="244" y="466" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="18" fill="#07192F">Family Physician</text>
+</g>
+
+<!-- Patient card -->
+<g filter="url(#shadow)">
+<rect x="590" y="178" width="300" height="418" rx="34" fill="white" stroke="#D9E7F3"/>
+<circle cx="740" cy="278" r="70" fill="#FAD7C4"/>
+<path d="M650 560 C667 457 695 392 740 392 C787 392 813 456 830 560" fill="#00A99D"/>
+<path d="M690 220 C722 174 799 194 812 250 C790 232 764 228 724 238 C704 243 694 234 690 220Z" fill="#71543E"/>
+<circle cx="716" cy="279" r="8" fill="#07192F"/>
+<circle cx="765" cy="279" r="8" fill="#07192F"/>
+<path d="M718 313 C735 327 752 327 767 313" stroke="#07192F" stroke-width="5" stroke-linecap="round"/>
+<rect x="656" y="438" width="168" height="42" rx="21" fill="#E7FFFB"/>
+<text x="740" y="466" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="18" fill="#007C73">Patient Portal</text>
+</g>
+
+<!-- Centre interface -->
+<g filter="url(#shadow)">
+<rect x="360" y="96" width="260" height="560" rx="36" fill="#07192F"/>
+<rect x="382" y="128" width="216" height="492" rx="24" fill="white"/>
+<rect x="412" y="160" width="156" height="20" rx="10" fill="#D9E7F3"/>
+<rect x="410" y="210" width="160" height="76" rx="18" fill="#EAF6FF"/>
+<text x="490" y="245" text-anchor="middle" font-family="Inter, Arial" font-weight="900" font-size="22" fill="#07192F">Medivo</text>
+<text x="490" y="270" text-anchor="middle" font-family="Inter, Arial" font-weight="700" font-size="13" fill="#64748B">Care OS</text>
+<rect x="410" y="315" width="160" height="48" rx="15" fill="#E7FFFB"/>
+<rect x="410" y="382" width="160" height="48" rx="15" fill="#EFF6FF"/>
+<rect x="410" y="449" width="160" height="48" rx="15" fill="#FFF7E9"/>
+<rect x="430" y="545" width="120" height="36" rx="18" fill="url(#blueTeal)"/>
+</g>
+
+<circle cx="397" cy="330" r="12" fill="#1F6FEB"/>
+<circle cx="582" cy="332" r="12" fill="#00A99D"/>
+<circle cx="397" cy="470" r="12" fill="#C98A2E"/>
+<circle cx="582" cy="470" r="12" fill="#1F6FEB"/>
+<path d="M394 330 H348 C320 330 303 315 285 300" stroke="#1F6FEB" stroke-width="4" stroke-linecap="round"/>
+<path d="M585 332 H634 C664 332 688 318 710 300" stroke="#00A99D" stroke-width="4" stroke-linecap="round"/>
+<path d="M394 470 H345 C312 470 294 492 268 508" stroke="#C98A2E" stroke-width="4" stroke-linecap="round"/>
+<path d="M585 470 H632 C667 470 692 492 718 508" stroke="#1F6FEB" stroke-width="4" stroke-linecap="round"/>
+</svg>

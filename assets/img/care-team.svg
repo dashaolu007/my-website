@@ -1,0 +1,33 @@
+<svg width="780" height="540" viewBox="0 0 780 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="g" x1="80" y1="70" x2="700" y2="510"><stop stop-color="#1F6FEB"/><stop offset="1" stop-color="#00A99D"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#07192F" flood-opacity=".16"/></filter>
+</defs>
+<rect x="30" y="35" width="720" height="470" rx="44" fill="#F7FBFF" stroke="#DCE8F2" stroke-width="2"/>
+<path d="M95 360 C190 210 292 280 390 210 C488 140 580 190 690 115" stroke="url(#g)" stroke-width="5" stroke-linecap="round" opacity=".25"/>
+<g filter="url(#s)">
+<rect x="92" y="150" width="180" height="250" rx="30" fill="white"/>
+<circle cx="182" cy="225" r="48" fill="#FCD7BE"/>
+<path d="M118 388 C130 320 150 292 182 292 C214 292 235 320 247 388" fill="#1F6FEB"/>
+<path d="M145 388 C152 332 165 303 182 303 C200 303 212 332 219 388" fill="#fff"/>
+<path d="M138 197 C156 162 210 164 224 202 C202 188 173 188 138 197Z" fill="#102A4D"/>
+<text x="182" y="433" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="18" fill="#07192F">Doctor</text>
+</g>
+<g filter="url(#s)">
+<rect x="300" y="95" width="180" height="305" rx="30" fill="white"/>
+<circle cx="390" cy="185" r="50" fill="#EAC1A4"/>
+<path d="M324 388 C336 315 357 280 390 280 C423 280 445 315 456 388" fill="#00A99D"/>
+<path d="M342 156 C360 110 430 120 442 162 C416 148 382 146 342 156Z" fill="#3E2D26"/>
+<text x="390" y="433" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="18" fill="#07192F">Nurse</text>
+</g>
+<g filter="url(#s)">
+<rect x="508" y="150" width="180" height="250" rx="30" fill="white"/>
+<circle cx="598" cy="225" r="48" fill="#F7D0BD"/>
+<path d="M532 388 C545 320 565 292 598 292 C631 292 651 320 664 388" fill="#C98A2E"/>
+<path d="M555 197 C573 160 633 164 648 202 C626 188 594 188 555 197Z" fill="#71543E"/>
+<text x="598" y="433" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="18" fill="#07192F">Patient</text>
+</g>
+<circle cx="390" cy="485" r="12" fill="#00A99D"/>
+<circle cx="350" cy="485" r="8" fill="#1F6FEB"/>
+<circle cx="430" cy="485" r="8" fill="#C98A2E"/>
+</svg>
